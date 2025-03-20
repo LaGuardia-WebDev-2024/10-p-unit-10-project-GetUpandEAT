@@ -1,5 +1,6 @@
 body {
   background-color: #9fd8fc;
+  background-image: url("https://www.stitcheryxpress.com/wp-content/uploads/2020/05/201-blue-gingham-fabric-flair-cross-stitch-fabric.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,10 +21,11 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: #fc9fb5;
+  background-color: #feb2be;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
+  border: 1px solid black;
 }
 
 .pic{

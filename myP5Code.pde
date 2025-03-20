@@ -1,5 +1,9 @@
 setup = function() {
     size(400, 600); 
+    frameRate(20);
+}    
+    
+draw = function(){    
     background(247, 240, 219);
     
     textSize(70);
@@ -28,6 +32,13 @@ setup = function() {
     text("🍓", 270, 575);
     
     if (mousePressed && 270 < mouseX < 350 && 490 < mouseY < 575){
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
+    text("🍎", random(0,800), random(0,800));
     text("🍎", random(0,800), random(0,800));
     }
     
